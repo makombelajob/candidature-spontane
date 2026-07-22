@@ -405,3 +405,102 @@ main{background-image:radial-gradient(circle at 10% 10%, rgba(11,82,91,0.03) 0, 
         padding: 1.25rem;
     }
 }
+
+.error-page {
+    min-height: calc(100vh - 180px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem 3rem;
+}
+
+.error-card {
+    width: min(100%, 620px);
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid var(--border);
+    border-radius: 1.75rem;
+    box-shadow: var(--shadow);
+    padding: 2.2rem;
+    text-align: center;
+    backdrop-filter: blur(8px);
+}
+
+.error-illustration {
+    width: 220px;
+    height: 160px;
+    margin: 0 auto 1.25rem;
+    display: grid;
+    place-items: center;
+    border-radius: 1.25rem;
+    background: linear-gradient(135deg, rgba(11, 82, 91, 0.08), rgba(255, 183, 3, 0.12));
+}
+
+.error-illustration svg {
+    width: 100%;
+    height: auto;
+}
+
+.error-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), #16a085);
+    color: white;
+    font-size: 1.75rem;
+    box-shadow: 0 12px 28px rgba(11, 82, 91, 0.16);
+}
+
+.error-card h1 {
+    margin: 0 0 0.4rem;
+    font-size: clamp(2.4rem, 4vw, 3.2rem);
+    color: var(--primary);
+}
+
+.error-card h2 {
+    margin: 0 0 0.7rem;
+    font-size: 1.4rem;
+    color: var(--text);
+}
+
+.error-card p {
+    margin: 0 auto 1.4rem;
+    max-width: 480px;
+    color: var(--muted);
+}
+
+.btn-home {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 1.25rem;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--primary), #0f7680);
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 10px 20px rgba(11, 82, 91, 0.16);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-home:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 24px rgba(11, 82, 91, 0.22);
+}
+
+@media (max-width: 700px) {
+    .error-page {
+        min-height: auto;
+        padding: 1.5rem 0.9rem 2rem;
+    }
+
+    .error-card {
+        padding: 1.5rem;
+    }
+
+    .error-illustration {
+        width: 180px;
+        height: 130px;
+    }
+}
