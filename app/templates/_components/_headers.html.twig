@@ -1,7 +1,14 @@
 <header class="site-header">
-	<a href="{{ path('app_main') }}" class="brand" aria-label="Accueil candidature spontanée">
-		CANDIDATURE SPONTANÉE
-	</a>
+	{% if app.user %}
+		<span class="brand" aria-label="Accueil candidature spontanée">
+			CANDIDATURE SPONTANÉE
+		</span>
+	{% else %}
+		<a href="{{ path('app_main') }}" class="brand" aria-label="Accueil candidature spontanée">
+			CANDIDATURE SPONTANÉE
+		</a>
+	{% endif %}
+
 
 	<button class="menu-toggle" type="button" aria-label="Ouvrir le menu">
 		...
