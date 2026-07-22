@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Users;
 use App\Form\RegistrationFormType;
 use App\Security\EmailVerifier;
+use App\Service\HunterEmailVerify;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bridge\Twig\Mime\TemplatedEmail;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -15,10 +16,13 @@ use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Contracts\Translation\TranslatorInterface;
 use SymfonyCasts\Bundle\VerifyEmail\Exception\VerifyEmailExceptionInterface;
+use Symfony\Component\Form\FormError;
 
 class RegistrationController extends AbstractController
 {
-    public function __construct(private EmailVerifier $emailVerifier)
+    public function __construct(
+        private EmailVerifier $emailVerifier,
+        private HunterEmailVerify $hunterEmailVerify)
     {
     }
 
@@ -30,6 +34,18 @@ class RegistrationController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+            /** Vérification Hunter.io AVANT création du compte*/
+            if (!$this->hunterEmailVerify->verify($user->getEmail())) {
+
+                $form->get('email')->addError(
+                    new FormError('Cette adresse email semble invalide.')
+                );
+
+                return $this->render('registration/register.html.twig', [
+                    'registrationForm' => $form,
+                ]);
+            }
+            
             /** @var string $plainPassword */
             $plainPassword = $form->get('plainPassword')->getData();
 
