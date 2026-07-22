@@ -1,20 +1,104 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ProfilsController!{% endblock %}
+{% block title %}Base SQLite - Entreprises
+{% endblock %}
+
+{% macro render_pagination(page, totalPages, perPage, search, paginationItems) %}
+    <div class="pagination" aria-label="Pagination">
+        {% set paginationParams = {'perPage': perPage, 'q': search} %}
+        {% if page > 1 %}
+            <a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': 1})) }}">« Début</a>
+            <a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': page - 1})) }}">‹ Précédent</a>
+        {% endif %}
+
+        {% for item in paginationItems %}
+            {% if item.isEllipsis %}
+                <span class="page-ellipsis" aria-hidden="true">…</span>
+            {% elseif item.isCurrent %}
+                <span class="page-item current">{{ item.number }}</span>
+            {% else %}
+                <a class="page-item" href="{{ path('app_profils', paginationParams|merge({'page': item.number})) }}">{{ item.number }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% if page < totalPages %}
+            <a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': page + 1})) }}">Suivant ›</a>
+            <a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': totalPages})) }}">Fin »</a>
+        {% endif %}
+    </div>
+{% endmacro %}
+
+{% import _self as pagination %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <div class="wrapper">
+        <h1>Base SQLite des entreprises</h1>
+        <p class="message">{{ message }}</p>
+        <p class="path">Chemin de la base :
+            <code>{{ databasePath }}</code>
+        </p>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+        <form class="controls" id="company-filters" method="get">
+            <label class="control-group" for="company-search">
+                <span>Rechercher</span>
+                <input id="company-search" name="q" type="search" placeholder="SIREN, nom, ville..." value="{{ search }}">
+            </label>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>/var/www/html/src/Controller/ProfilsController.php</code></li>
-        <li>Your template at <code>/var/www/html/templates/profils/index.html.twig</code></li>
-    </ul>
-</div>
+            <label class="control-group" for="per-page">
+                <span>Par page</span>
+                <select id="per-page" name="perPage">
+                    {% for value in [10, 25, 50, 100, 200] %}
+                        <option value="{{ value }}" {% if perPage == value %} selected {% endif %}>{{ value }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+
+            <input type="hidden" name="page" value="1">
+            <button type="submit">Appliquer</button>
+        </form>
+
+        <div class="table-summary" id="table-summary">{{ message }}</div>
+
+        {% if companies is empty %}
+            <p class="empty-state">Aucune entreprise n’a encore été importée.</p>
+        {% else %}
+            {{ pagination.render_pagination(page, totalPages, perPage, search, paginationItems) }}
+
+            <table class="company-table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Siren</th>
+                    <th>Siret</th>
+                    <th>Nom</th>
+                    <th>Code NAF</th>
+                    <th>Ville</th>
+                    <th>Code postal</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+                </thead>
+                <tbody id="company-table-body">
+                {% for company in companies %}
+                    <tr>
+                        <td>{{ company.id }}</td>
+                        <td>{{ company.siren }}</td>
+                        <td>{{ company.siret }}</td>
+                        <td>{{ company.name }}</td>
+                        <td>{{ company.active_naf }}</td>
+                        <td>{{ company.city }}</td>
+                        <td>{{ company.code_postal }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+
+            {{ pagination.render_pagination(page, totalPages, perPage, search, paginationItems) }}
+        {% endif %}
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('js/company-table.js') }}" defer></script>
 {% endblock %}
