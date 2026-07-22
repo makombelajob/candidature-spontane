@@ -1,0 +1,32 @@
+<header class="site-header">
+	<a href="{{ path('app_main') }}" class="brand" aria-label="Accueil candidature spontanée">
+		CANDIDATURE SPONTANÉE
+	</a>
+
+	<button class="menu-toggle" type="button" aria-label="Ouvrir le menu">
+		...
+	</button>
+
+	<nav class="site-nav" aria-label="Navigation principale">
+		{% if app.user %}
+			<a href="{{ path('app_profils') }}">Profil</a>
+			<a href="#">Mes candidatures</a>
+			<a href="#">Mes favoris</a>
+			<a href="#">Messages</a>
+			<a href="{{ logout_path() }}">Déconnexion</a>
+		{% else %}
+			<a href="{{ path('app_main') }}">Accueil</a>
+			<a href="{{ path('app_about') }}">À propos</a>
+
+			{% if app.request.attributes.get('_route') != 'app_register' %}
+				<a href="{{ path('app_register') }}">Signup</a>
+			{% endif %}
+
+			{% if app.request.attributes.get('_route') != 'app_login' %}
+				<a href="{{ path('app_login') }}">Login</a>
+			{% endif %}
+
+			<a href="{{ path('app_contact') }}">Contact</a>
+		{% endif %}
+	</nav>
+</header>
