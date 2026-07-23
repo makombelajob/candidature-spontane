@@ -44,4 +44,5 @@ services:
     image: mailhog/mailhog
     container_name: CandyS_mail
     ports:
+      - "1025:1025"
       - "8025:8025"
