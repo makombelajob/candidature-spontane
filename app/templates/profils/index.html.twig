@@ -4,101 +4,113 @@
 {% endblock %}
 
 {% macro render_pagination(page, totalPages, perPage, search, paginationItems) %}
-    <div class="pagination" aria-label="Pagination">
-        {% set paginationParams = {'perPage': perPage, 'q': search} %}
-        {% if page > 1 %}
-            <a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': 1})) }}">« Début</a>
-            <a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': page - 1})) }}">‹ Précédent</a>
-        {% endif %}
+	<div class="pagination" aria-label="Pagination">
+		{% set paginationParams = {'perPage': perPage, 'q': search} %}
+		{% if page > 1 %}
+			<a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': 1})) }}">« Début</a>
+			<a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': page - 1})) }}">‹ Précédent</a>
+		{% endif %}
 
-        {% for item in paginationItems %}
-            {% if item.isEllipsis %}
-                <span class="page-ellipsis" aria-hidden="true">…</span>
-            {% elseif item.isCurrent %}
-                <span class="page-item current">{{ item.number }}</span>
-            {% else %}
-                <a class="page-item" href="{{ path('app_profils', paginationParams|merge({'page': item.number})) }}">{{ item.number }}</a>
-            {% endif %}
-        {% endfor %}
+		{% for item in paginationItems %}
+			{% if item.isEllipsis %}
+				<span class="page-ellipsis" aria-hidden="true">…</span>
+			{% elseif item.isCurrent %}
+				<span class="page-item current">{{ item.number }}</span>
+			{% else %}
+				<a class="page-item" href="{{ path('app_profils', paginationParams|merge({'page': item.number})) }}">{{ item.number }}</a>
+			{% endif %}
+		{% endfor %}
 
-        {% if page < totalPages %}
-            <a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': page + 1})) }}">Suivant ›</a>
-            <a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': totalPages})) }}">Fin »</a>
-        {% endif %}
-    </div>
+		{% if page < totalPages %}
+			<a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': page + 1})) }}">Suivant ›</a>
+			<a class="page-link nav" href="{{ path('app_profils', paginationParams|merge({'page': totalPages})) }}">Fin »</a>
+		{% endif %}
+	</div>
 {% endmacro %}
 
 {% import _self as pagination %}
 
 {% block body %}
-    <div class="wrapper">
-        <h1>Les entreprises</h1>
-        <p class="message">{{ message }}</p>
-        {# <p class="path">Chemin de la base :
-                       <code>{{ databasePath }}</code>
-                   </p> #}
+	<div class="wrapper">
+		<h1>Les entreprises</h1>
+		<p class="message">{{ message }}</p>
+		{# <p class="path">Chemin de la base :
+																				                       <code>{{ databasePath }}</code>
+																				                   </p> #}
 
-        <form class="controls" id="company-filters" method="get">
-            <label class="control-group" for="company-search">
-                <span>Rechercher</span>
-                <input id="company-search" name="q" type="search" placeholder="SIREN, nom, ville..." value="{{ search }}">
-            </label>
+		<form class="controls" id="company-filters" method="get">
+			<label class="control-group" for="company-search">
+				<span>Rechercher</span>
+				<input id="company-search" name="q" type="search" placeholder="SIREN, nom, ville..." value="{{ search }}">
+			</label>
 
-            <label class="control-group" for="per-page">
-                <span>Par page</span>
-                <select id="per-page" name="perPage">
-                    {% for value in [10, 25, 50, 100, 200] %}
-                        <option value="{{ value }}" {% if perPage == value %} selected {% endif %}>{{ value }}</option>
-                    {% endfor %}
-                </select>
-            </label>
+			<label class="control-group" for="per-page">
+				<span>Par page</span>
+				<select id="per-page" name="perPage">
+					{% for value in [10, 25, 50, 100, 200] %}
+						<option value="{{ value }}" {% if perPage == value %} selected {% endif %}>{{ value }}</option>
+					{% endfor %}
+				</select>
+			</label>
 
-            <input type="hidden" name="page" value="1">
-            <button type="submit">Appliquer</button>
-        </form>
+			<input type="hidden" name="page" value="1">
+			<button type="submit">Appliquer</button>
+		</form>
 
-        <div class="table-summary" id="table-summary">{{ message }}</div>
+		<div class="table-summary" id="table-summary">{{ message }}</div>
 
-        {% if companies is empty %}
-            <p class="empty-state">Aucune entreprise n’a encore été importée.</p>
-        {% else %}
-            {{ pagination.render_pagination(page, totalPages, perPage, search, paginationItems) }}
+		{% if companies is empty %}
+			<p class="empty-state">Aucune entreprise n’a encore été importée.</p>
+		{% else %}
+			{{ pagination.render_pagination(page, totalPages, perPage, search, paginationItems) }}
 
-            <table class="company-table">
-                <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Siren</th>
-                    <th>Siret</th>
-                    <th>Nom</th>
-                    <th>Code NAF</th>
-                    <th>Ville</th>
-                    <th>Code postal</th>
-                    <th>Phone</th>
-                    <th>Email</th>
-                </tr>
-                </thead>
-                <tbody id="company-table-body">
-                {% for company in companies %}
-                    <tr>
-                        <td>{{ company.id }}</td>
-                        <td>{{ company.siren }}</td>
-                        <td>{{ company.siret }}</td>
-                        <td>{{ company.name }}</td>
-                        <td>{{ company.active_naf }}</td>
-                        <td>{{ company.city }}</td>
-                        <td>{{ company.code_postal }}</td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table>
+			<table class="company-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Siren</th>
+						<th>Siret</th>
+						<th>Nom</th>
+						<th>Code NAF</th>
+						<th>Ville</th>
+						<th>Code postal</th>
+						<th>Phone</th>
+						<th>Email</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody id="company-table-body">
+					{% for company in companies %}
+						<tr>
+							<td>{{ company.id }}</td>
+							<td>{{ company.siren }}</td>
+							<td>{{ company.siret }}</td>
+							<td>{{ company.name }}</td>
+							<td>{{ company.active_naf }}</td>
+							<td>{{ company.city }}</td>
+							<td>{{ company.code_postal }}</td>
+							<td></td>
+							<td></td>
+							<td>
+								<a class="recharge-btn" title="Recharger la fiche" aria-label="Recharger la fiche" href={{ path('app_crawler') }}>
 
-            {{ pagination.render_pagination(page, totalPages, perPage, search, paginationItems) }}
-        {% endif %}
-    </div>
+									<svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+										<path d="M21 12a9 9 0 1 1-2.64-6.36L21 3v6h-6"></path>
+									</svg>
+
+								</a>
+							</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+
+			{{ pagination.render_pagination(page, totalPages, perPage, search, paginationItems) }}
+		{% endif %}
+	</div>
 {% endblock %}
 
 {% block javascripts %}
-    {{ parent() }}
-    <script src="{{ asset('js/company-table.js') }}" defer></script>
+	{{ parent() }}
+	<script src="{{ asset('js/company-table.js') }}" defer></script>
 {% endblock %}
