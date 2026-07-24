@@ -1,0 +1,287 @@
+[22-Jul-2026 10:03:51 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:03:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:04:10 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:04:11 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:04:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:04:58 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:04:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:04 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:05 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:23 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:23 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:23 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:25 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:05:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:12 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:12 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:12 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:12 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:27 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:28 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:28 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:45 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:46 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:06:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:07:04 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:07:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:07:04 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:07:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:07:24 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:07:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:07:24 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:07:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:07:54 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:07:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php:20
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#2 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:07:55 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:07:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php:20
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#2 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:07:55 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:07:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php:20
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#2 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:07:58 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:07:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php:20
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#2 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:09:45 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:09:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php:20
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#2 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:09:45 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:09:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php:20
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#2 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php on line 20
+[22-Jul-2026 10:19:00 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:19:00 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:19:01 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:19:03 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:26:03 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:26:03 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:33:55 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:33:55 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:36:55 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:36:56 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.31. in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php:22
+Stack trace:
+#0 /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/autoload_real.php(25): require()
+#1 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload.php(22): ComposerAutoloaderInite8d3a95da1ed2c87bca868e4168fd74a::getLoader()
+#2 /home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php(5): require_once('/home/majo7240/...')
+#3 /home/majo7240/sites/candys.jobmakombela.fr/public/index.php(5): require_once('/home/majo7240/...')
+#4 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/vendor/composer/platform_check.php on line 22
+[22-Jul-2026 10:44:29 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:44:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:44:29 UTC] PHP Warning:  require_once(/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php): Failed to open stream: No such file or directory in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
+[22-Jul-2026 10:44:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/majo7240/sites/candys.jobmakombela.fr/vendor/autoload_runtime.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/majo7240/sites/candys.jobmakombela.fr/public/index.php on line 5
