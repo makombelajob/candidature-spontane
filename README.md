@@ -165,6 +165,35 @@ L’objectif est de permettre à chaque utilisateur de découvrir des entreprise
 
 Aujourd’hui, la base SQLite contient des entreprises de base sans contacts suffisants. À terme, un crawler enrichira ces fiches avec des données de contact, puis les enregistrera dans la vraie base Doctrine ORM, qui deviendra la source de vérité du projet.
 
+## Mise à jour automatique de la base SQLite
+
+La base SQLite utilisée pour les entreprises est stockée localement dans `app/var/data/data.db`.
+
+Pour régénérer ce fichier depuis la source CSV :
+
+```bash
+cd /home/devsecops/Webs/candidature-spontane
+python3 app/Python/update_sqlite.py --csv app/var/data/StockEtablissement_utf8.csv --db app/var/data/data.db
+```
+
+Pour un test rapide, utilisez `--limit` :
+
+```bash
+python3 app/Python/update_sqlite.py --csv app/var/data/StockEtablissement_utf8.csv --db app/var/data/data.db --limit 1000
+```
+
+Important : le répertoire `app/var/data` doit être accessible en écriture pour l’utilisateur qui exécute la commande. Si le dossier est possédé par `root` ou un autre utilisateur, ajustez les permissions ou utilisez le service Docker décrit ci-dessous.
+
+Une autre option est d’utiliser le service Docker automatisé ajouté dans `docker-compose.yaml` :
+
+```bash
+docker compose up -d sqlite-updater
+```
+
+Ce service reconstruit `data.db` tous les 86400 secondes (1 jour) à partir de `app/var/data/StockEtablissement_utf8.csv`.
+
+Pour automatiser les mises à jour sans Docker, exécutez la commande régulièrement depuis l’hôte (cron, systemd timer, etc.).
+
 ## Dépannage courant
 
 ### Les conteneurs ne démarrent pas

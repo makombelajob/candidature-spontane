@@ -8,6 +8,7 @@ services:
     volumes:
       - ./app:/var/www/html
       - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
+      - ./app/var/data:/var/data
 
   database:
     image: mysql:8.0
@@ -39,6 +40,18 @@ services:
       - "8082:8080"
     volumes:
       - ./app/var/data:/data
+
+  sqlite-updater:
+    image: python:3.12-slim
+    container_name: CandyS_sqlite_updater
+    working_dir: /var/www/html/Python
+    volumes:
+      - ./app:/var/www/html
+      - ./app/var/data:/var/data
+    command: /bin/sh -c "while true; do python3 update_sqlite.py --csv /var/www/html/var/data/StockEtablissement_utf8.csv --db /var/data/data.db; sleep 86400; done"
+    restart: unless-stopped
+    depends_on:
+      - php
 
   mailhog:
     image: mailhog/mailhog

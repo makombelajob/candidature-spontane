@@ -6,6 +6,9 @@ RUN apt-get update && apt-get install -y \
     git \
     unzip \
     zip \
+    python3 \
+    python3-venv \
+    python3-pip \
     libicu-dev \
     libzip-dev \
     libpng-dev \
@@ -16,7 +19,7 @@ RUN apt-get update && apt-get install -y \
     sqlite3 \
     && rm -rf /var/lib/apt/lists/*
 
-# Configuration de GD
+# Configuration GD
 RUN docker-php-ext-configure gd \
     --with-freetype \
     --with-jpeg \
@@ -47,6 +50,14 @@ COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
 # Symfony CLI
 RUN curl -fsSL https://get.symfony.com/cli/installer | bash \
     && mv /root/.symfony*/bin/symfony /usr/local/bin/symfony
+
+# Python environnement dédié
+RUN python3 -m venv /opt/python \
+    && /opt/python/bin/pip install --upgrade pip \
+    && /opt/python/bin/pip install ddgs requests
+
+# Utiliser ce Python par défaut
+ENV PATH="/opt/python/bin:$PATH"
 
 WORKDIR /var/www/html
 

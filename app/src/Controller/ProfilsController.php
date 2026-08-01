@@ -131,36 +131,24 @@ final class ProfilsController extends AbstractController
             'SELECT COUNT(*) FROM company ' . $whereSql
         );
 
-
         $this->bindParams(
             $countStmt,
             $params
         );
 
-
         $countStmt->execute();
 
-
         $totalItems = (int) $countStmt->fetchColumn();
-
-
-
         $totalPages = max(
             1,
             (int) ceil($totalItems / $perPage)
         );
-
-
         $page = min(
             $page,
             $totalPages
         );
 
-
         $offset = ($page - 1) * $perPage;
-
-
-
         $stmt = $pdo->prepare(
             'SELECT
                 id,
@@ -179,20 +167,15 @@ final class ProfilsController extends AbstractController
               LIMIT :limit OFFSET :offset'
         );
 
-
-
         $this->bindParams(
             $stmt,
             $params
         );
-
-
         $stmt->bindValue(
             ':limit',
             $perPage,
             PDO::PARAM_INT
         );
-
 
         $stmt->bindValue(
             ':offset',
@@ -200,16 +183,11 @@ final class ProfilsController extends AbstractController
             PDO::PARAM_INT
         );
 
-
         $stmt->execute();
-
-
 
         $companies = $stmt->fetchAll(
             PDO::FETCH_ASSOC
         );
-
-
 
         $start = $totalItems === 0
             ? 0
@@ -221,14 +199,10 @@ final class ProfilsController extends AbstractController
             $totalItems
         );
 
-
-
         $paginationItems = $this->buildPaginationItems(
             $page,
             $totalPages
         );
-
-
 
         if ($totalItems === 0) {
 
@@ -238,8 +212,6 @@ final class ProfilsController extends AbstractController
                     $search
                 )
                 : 'Aucune entreprise n’a encore été importée.';
-
-
         } elseif ($search !== '') {
 
             $message = sprintf(
@@ -249,8 +221,6 @@ final class ProfilsController extends AbstractController
                 $totalItems,
                 $search
             );
-
-
         } else {
 
             $message = sprintf(
@@ -260,8 +230,6 @@ final class ProfilsController extends AbstractController
                 $totalItems
             );
         }
-
-
 
         $data = [
             'controller_name' => 'ProfilsController',
@@ -278,15 +246,11 @@ final class ProfilsController extends AbstractController
             'end' => $end,
         ];
 
-
-
         return $this->render(
             'profils/index.html.twig',
             $data
         );
     }
-
-
 
     private function buildPaginationItems(int $page, int $totalPages): array
     {

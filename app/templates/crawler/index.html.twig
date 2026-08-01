@@ -1,20 +1,111 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello CrawlerController!{% endblock %}
+{% block title %}Hello CrawlerController!
+{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+	<style>
+		.example-wrapper
+		{
+			margin: 1em auto;
+			max-width: 800px;
+			width: 95%;
+			font: 18px / 1.5 sans-serif;
+		}
+		.example-wrapper code
+		{
+			background: #F5F5F5;
+			padding: 2px 6px;
+		}
+	</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+	<div class="example-wrapper">
+		<h2>
+			Résultats recherche site officiel
+		</h2>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>/var/www/html/src/Controller/CrawlerController.php</code></li>
-        <li>Your template at <code>/var/www/html/templates/crawler/index.html.twig</code></li>
-    </ul>
-</div>
+
+		{% if results.company is defined %}
+
+			<h3>
+				Entreprise :
+				{{ results.company.name }}
+			</h3>
+
+			<p>
+				SIRET :
+				{{ results.company.siret }}
+
+				<br>
+
+				SIREN :
+				{{ results.company.siren }}
+
+				<br>
+
+				Code NAF :
+				{{ results.company.code_naf }}
+			</p>
+
+		{% endif %}
+
+
+		{% if results.candidates is defined and results.candidates|length > 0 %}
+
+			<h3>
+				Sites trouvés :
+			</h3>
+
+			<ul>
+				{% for candidate in results.candidates %}
+					<li>
+						<strong>
+							{{ candidate.score }}
+							points
+						</strong>
+						-
+						<a href="{{ candidate.url }}" target="_blank">
+							{{ candidate.url }}
+						</a>
+
+						<br>
+
+						{{ candidate.title }}
+
+					</li>
+
+				{% endfor %}
+
+			</ul>
+
+		{% elseif results.contacts is defined and results.contacts|length > 0 %}
+
+			<h3>
+				Contacts publics trouvés :
+			</h3>
+
+			<ul>
+				{% for contact in results.contacts %}
+					<li>
+						<strong>{{ contact.type|upper }}:</strong>
+						<a href="{{ contact.url }}" target="_blank">
+							{{ contact.value }}
+						</a>
+						{% if contact.source %}
+							<br>
+							<small>Source:
+								{{ contact.source }}</small>
+						{% endif %}
+					</li>
+				{% endfor %}
+			</ul>
+		{% else %}
+
+			<p>
+				Aucun candidat trouvé.
+			</p>
+
+		{% endif %}
+
+	</div>
 {% endblock %}
